@@ -18,21 +18,31 @@ A simple PHP-based user management system with login, registration, CRUD operati
 
 ## 📁 Project Structure
 
-project/
-│
-├── admin.php # Admin dashboard
-├── login.php # Login page
-├── logout.php # Logout handler
-├── register.php # Registration form
-├── home.php # Post-login user home
-├── insert.php # Insert user record
-├── edit.php # Edit user details
-├── delete.php # Delete user
-├── csv.php # Export data to CSV
-├── generate.php # (Optional) Data generator
-├── db.php # Database connection file
-├── composer.json # Composer config
-├── vendor/ # Composer dependencies (auto-generated)
+Phpproject/
+└── project/
+    ├── admin.php              # Admin dashboard
+    ├── login.php              # User login page
+    ├── logout.php             # Logs out the user and ends session
+    ├── register.php           # User registration form
+    ├── home.php               # Home page after login
+    ├── insert.php             # Inserts new user data into DB
+    ├── edit.php               # Edits existing user details
+    ├── delete.php             # Deletes a user from DB
+    ├── csv.php                # Exports user data to CSV
+    ├── generate.php           # (Optional) Generates sample data
+    ├── db.php                 # Database connection setup
+    ├── composer.json          # Composer config for dependencies
+    ├── composer.lock          # Exact versions of installed packages
+    └── vendor/                # Auto-generated folder for Composer packages
+        └── autoload.php       # Autoloader for dependencies
+        └── composer/
+            ├── autoload_classmap.php
+            ├── autoload_namespaces.php
+            ├── autoload_psr4.php
+            ├── autoload_real.php
+            ├── autoload_static.php
+            └── ClassLoader.php
+
 
 yaml
 Copy
