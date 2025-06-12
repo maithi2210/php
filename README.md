@@ -43,11 +43,6 @@ Phpproject/
             ├── autoload_static.php
             └── ClassLoader.php
 
-
-yaml
-Copy
-Edit
-
 ---
 
 ## 🛠️ Installation & Setup
