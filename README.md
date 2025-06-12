@@ -19,29 +19,29 @@ A simple PHP-based user management system with login, registration, CRUD operati
 ## 📁 Project Structure
 
 Phpproject/
-└── project/
-    ├── admin.php              # Admin dashboard
-    ├── login.php              # User login page
-    ├── logout.php             # Logs out the user and ends session
-    ├── register.php           # User registration form
-    ├── home.php               # Home page after login
-    ├── insert.php             # Inserts new user data into DB
-    ├── edit.php               # Edits existing user details
-    ├── delete.php             # Deletes a user from DB
-    ├── csv.php                # Exports user data to CSV
-    ├── generate.php           # (Optional) Generates sample data
-    ├── db.php                 # Database connection setup
-    ├── composer.json          # Composer config for dependencies
-    ├── composer.lock          # Exact versions of installed packages
-    └── vendor/                # Auto-generated folder for Composer packages
-        └── autoload.php       # Autoloader for dependencies
-        └── composer/
-            ├── autoload_classmap.php
-            ├── autoload_namespaces.php
-            ├── autoload_psr4.php
-            ├── autoload_real.php
-            ├── autoload_static.php
-            └── ClassLoader.php
+├── admin.php           # Admin dashboard page
+├── login.php           # Login page for users
+├── logout.php          # Ends the user session
+├── register.php        # User registration page
+├── home.php            # User homepage after login
+├── insert.php          # Script to insert new user data into the database
+├── edit.php            # Script and form to update user data
+├── delete.php          # Script to delete a user record
+├── csv.php             # Exports user data to CSV format
+├── generate.php        # (Optional) Script to generate test data
+├── db.php              # Database connection configuration
+├── composer.json       # Composer configuration file
+├── composer.lock       # Locked versions of dependencies
+├── vendor/             # Composer dependencies (auto-generated)
+│   └── autoload.php    # Autoloader for PHP packages
+│   └── composer/       # Composer internal files
+│       ├── ClassLoader.php
+│       ├── autoload_classmap.php
+│       ├── autoload_namespaces.php
+│       ├── autoload_psr4.php
+│       ├── autoload_real.php
+│       └── autoload_static.php
+└── README.md           # Project documentation file
 
 ---
 
