@@ -52,7 +52,7 @@ Phpproject/
 ```bash
 git clone https://github.com/your-username/php-user-management.git
 Or simply download the ZIP.
-
+---
 2. Configure the Database
 Create a MySQL database (e.g., user_management).
 
@@ -67,6 +67,8 @@ $host = 'localhost';
 $user = 'root';
 $password = '';
 $database = 'user_management';
+---
+
 3. Install Composer Dependencies
 If you don't have Composer installed, download it from getcomposer.org.
 
@@ -76,6 +78,7 @@ bash
 Copy
 Edit
 composer install
+---
 4. Run the Project
 Move the project to your web server root (htdocs/ for XAMPP).
 
@@ -120,7 +123,7 @@ Admin functions via admin.php
 Add/Edit/Delete users
 
 Export user data using csv.php
-
+---
 📝 License
 This project is released under the MIT License. You are free to use, modify, and distribute it.
 
