@@ -120,7 +120,38 @@ Add/Edit/Delete users
 
 Export user data using csv.php
 ```
+### Screenshots
 
+1. Register Form
+![image](https://github.com/user-attachments/assets/4f271ed5-813d-4be7-85b4-de8a2c7d732c)
+
+2. Login Form
+![image](https://github.com/user-attachments/assets/68abfa61-dd5f-4245-965e-9d52325bf46d)
+
+3. Product Management
+![image](https://github.com/user-attachments/assets/37062237-55a4-461a-aa4e-9e3ad5f1533b)
+
+4. Insert Product
+![image](https://github.com/user-attachments/assets/90a9bb7b-8344-48da-82dc-7f6a50468f71)
+
+5. Edit Product
+![image](https://github.com/user-attachments/assets/47806409-9983-468d-8581-58f26865a7a9)
+
+6. Delete Product
+![image](https://github.com/user-attachments/assets/257442b2-6c15-45e7-bd64-abe53727d425)
+
+```
+If login through admin, then Admin Panel will open
+```
+7. Admin Panel
+![image](https://github.com/user-attachments/assets/b81cbdd8-063d-4a4c-a0df-1b4d443ddfd4)
+
+8. Product.csv
+![image](https://github.com/user-attachments/assets/644a3b65-000e-4477-a3ab-e0d67da7e263)
+
+9. Product.pdf
+![image](https://github.com/user-attachments/assets/008ae913-656c-461b-ba95-1e8c56777f2f)
+   
 ### 📝 License
 This project is released under the MIT License. You are free to use, modify, and distribute it.
 
